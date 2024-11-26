@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project Z</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="Style3.css">
+    </head>
+    <body>
+
+        <section class="header">
+            <header>
+                <!-- navbar -->
+                <div class="container" >
+                    <nav class="navbar navbar-expand-lg">  
+                        <div class="logo">SPU</div>
+                        <div class="logo-t">SHOP</div>
+                        <ul class="nav-list">
+                            <li><a href="index.html">หน้าหลัก</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">สินค้า</a>
+                                    <ul class="dropdown-menu">
+                                        <li ><a href="Shoes.html" class="dropdown-item">รองเท้าผ้าใบ</a></li>
+                                        <li><a href="Backpack.html" class="dropdown-item">กระเป๋า</a></li>
+                                        <li><a href="Hats.html" class="dropdown-item">หมวก</a></li>
+                                        <!-- <li><hr class="dropdown-divider"></li>
+                                        <li><a href="#" class="dropdown-item">พิเศษ</a></li> -->
+                                    </ul>
+                                </li>
+                            <li><a href="Service.html">บริการ</a></li>
+                            <li><a href="About.html">เกี่ยวกับเรา</a></li>
+                        </ul >
+                    </nav>
+                </div>
+            </header>
+        </section>
+        <br>
+
+        <!-- Tap -->
+         <div class="d-flex align-items-start">
+
+            <ul class="nav nav-tab" id=mytab role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="adidas-tab" data-bs-toggle="tab" data-bs-target="#adidas" type="button" role="tab" aria-controls="adidas" aria-selected="true">
+                       เสื้อ
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="nike-tab" data-bs-toggle="tab" data-bs-target="#nike" type="button" role="tab" aria-controls="nike" aria-selected="false">
+                       กางเกง
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="backpac-tab" data-bs-toggle="tab" data-bs-target="#backpack" type="button" role="tab" aria-controls="backpack" aria-selected="false">
+                       หมวก
+                    </button>
+                </li>
+
+                <!-- <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="souvenir-tab" data-bs-toggle="tab" data-bs-target="#souvenir" type="button" role="tab" aria-controls="souvenir" aria-selected="false">
+                       Souvenir
+                    </button>
+                </li> -->
+
+            </ul>
+
+            <div class="tab-content" id="mytapContent">
+
+                <div class="tab-pane fade show active" id="adidas" role="tabpanel" aria-labelledby="adidas-tab">
+                   
+                </div>
+
+                <div class="tab-pane fade" id="nike" role="tabpanel" aria-labelledby="nike-tab">
+                    Nike Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione repellat porro iste doloribus tenetur ducimus. Saepe illum inventore exercitationem!
+                </div>
+
+                <div class="tab-pane fade" id="backpack" role="tabpanel" aria-labelledby="backpack-tab">
+                   Backpack Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione repellat porro iste doloribus tenetur ducimus. Saepe illum inventore exercitationem!
+                </div>
+
+                <!-- <div class="tab-pane fade" id="souvenir" role="tabpanel" aria-labelledby="souvenir-tab">
+                    Souvenir Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione repellat porro iste doloribus tenetur ducimus. Saepe illum inventore exercitationem!
+                </div> -->
+
+            </div>
+          
+         </div>
+         <br>
+         <!-- pills -->
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills" id="v-pills" role="taplist" aria-orientation="vertical">
+
+                    <button class="nav-link active" id="adidas-tab" data-bs-toggle="pill" data-bs-target="#v-pills-adidas" type="button" role="tab" aria-controls="v-pills-adidas" aria-selected="true">
+                        รองเท้าผ้าใบ
+                    </button>
+
+                    <button class="nav-link" id="nike-tab" data-bs-toggle="pill" data-bs-target="#v-pills-nike" type="button" role="tab" aria-controls="v-pills-nike" aria-selected="false">
+                        กระเป๋า
+                    </button>
+
+                    <button class="nav-link" id="backpack" data-bs-toggle="pill" data-bs-target="#v-pills-backpack" type="button" role="tab" aria-controls="v-pills-backpack" aria-selected="false">
+                       หมวก
+                    </button>
+
+                    <!-- <button class="nav-link" id="souvenir-tab" data-bs-toggle="pill" data-bs-target="#v-pills-souvenir" type="button" role="tab" aria-controls="v-pills-sorvenir" aria-selected="false">
+                        souvenir
+                    </button> -->
+
+                </div>
+
+                <div class="tab-content" id="v-pills-tabcontent">
+                    <div class="tab-pane fade show active" id="v-pills-adidas" role="tabpanel" aria-labelledby="v-pills-adidas-tap">
+                        1. adidas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, veniam. Aperiam sunt, optio vero voluptates rem placeat, delectus veniam eius ullam provident, ut iusto velit voluptatem consequuntur deleniti totam? Libero?
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-nike" role="tabpanel" aria-labelledby="v-pills-nike-tap">
+                        2. nike Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, veniam. Aperiam sunt, optio vero voluptates rem placeat, delectus veniam eius ullam provident, ut iusto velit voluptatem consequuntur deleniti totam? Libero?
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-backpack" role="tabpanel" aria-labelledby="v-pills-backpack-tap">
+                        3. backpack Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, veniam. Aperiam sunt, optio vero voluptates rem placeat, delectus veniam eius ullam provident, ut iusto velit voluptatem consequuntur deleniti totam? Libero?
+
+                    </div>
+
+                    <!-- <div class="tab-pane fade" id="v-pills-souvenir" role="tabpanel" aria-labelledby="v-pills-souvenir-tap">
+                        4. souvenir Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, veniam. Aperiam sunt, optio vero voluptates rem placeat, delectus veniam eius ullam provident, ut iusto velit voluptatem consequuntur deleniti totam? Libero?
+
+                    </div> -->
+
+
+                </div>
+
+            </div>
+
+            <br>
+        <footer>
+            <div>
+                <h1 class="font-footer">Copyright © 2024 SPU SHOP Company</h1><br>
+                <p class="expan">จัดทำโดย</p>
+                <p class="expan">นายปริญญา สามเมือง รหัสนักศึกษา 67095203</p>
+                <p class="expan">นายธนาเทพ ทองปาน รหัสนักศึกษา 67157515</p>
+            </div>
+        </footer>
+    
+
+
+    </body>
+</html>

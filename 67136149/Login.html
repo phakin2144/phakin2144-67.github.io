@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Project Z</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="Style1.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+
+        <section id="Slider">
+
+            <div class="carousel slider" data-bs-ride="carousel" id="Myslider">
+                <ol class="carousel-indicators">
+                    <button data-bs-target="#Myslider" data-bs-slide-to="0"></button>
+                    <button data-bs-target="#Myslider" data-bs-slide-to="1" class="active"></button>
+                    <button data-bs-target="#Myslider" data-bs-slide-to="2"></button>
+                </ol>
+
+                <div class="carousel-inner">
+                    <!-- image1 -->
+                    <div class="carousel-item carousel-image-4">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3">ยินดีต้อนรับเข้าสู่ระบบ</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- image2 -->
+                    <div class="carousel-item carousel-image-5 active">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3">ยินดีต้อนรับเข้าสู่ระบบ</h1>                  
+                            </div>
+                        </div>
+                    </div>
+                    <!-- image3 -->
+                    <div class="carousel-item carousel-image-6">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3">ยินดีต้อนรับเข้าสู่ระบบ</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" data-bs-target="Myslider" data-bs-slide-to="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" data-bs-target="Myslider" data-bs-slide-to="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+         </section>
+         <!-- Form login -->
+          <section class="Form-login">
+            <div class="container">
+                <h2><i class='bx bxs-user-pin'style="color: green;"></i>เข้าสู่ระบบจัดการพนักงาน</h2>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-info">เข้าสู่ระบบ</button>
+                        <button type="reset" class="btn btn-warning">ล้างข้อมูล</button>
+                        <a href="index.html" class="btn btn-danger">กลับหน้าหลัก</a>
+                    </form>
+
+            </div>
+          </section>
+
+          
+         
+    </body>
+
+</html>

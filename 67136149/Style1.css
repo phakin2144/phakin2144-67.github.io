@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-image-1{
+    background: url(https://www.thaisoung.com/page/media/attachment_pj/S__13017185.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url(https://images.squarespace-cdn.com/content/v1/59bf8dc3e5dd5b141a2ba135/1592973422679-G1XFGPAXJA3T5QT28OAC/Page365-clothes.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url(https://th.bing.com/th/id/OIP.YbFotDxOXk-6KjCyZRVfWgHaJQ?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.carousel-image-4{
+    background: url(https://th.bing.com/th/id/OIP.-g8iR9sofmIFTbPM-AyqCQHaHa?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.carousel-image-5{
+    background: url(https://my-test-11.slatic.net/p/f304776ccfc7d9f52a87ae63a576c158.jpg);
+    background-size: cover;
+}
+.carousel-image-6{
+    background: url(https://pic.pikbest.com/01/40/55/68p888piCEM4.jpg-0.jpg!bebw700);
+    background-size: cover;
+}
+.carousel-image-7{
+    background: url(https://www.iccshopping.com/cdn/shop/files/EICLUNH35P15BLF.png?v=1707185201&width=600);
+    background-size: cover;
+}
+.carousel-image-8{
+    background: url(https://png.pngtree.com/png-vector/20231019/ourlarge/pngtree-red-cap-fashion-hat-front-view-png-image_10254801.png);
+    background-size: cover;
+}
+.carousel-image-9{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVBhs1fbVxLXBncFsSxLwmmbLUIsPW0v1k4g&s);
+    background-size: cover;
+}
+img{
+    width: 80%;
+    height: 85%;
+}
+/* section.footer p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 5 rem;
+    background-color: aqua;
+}  */
+a {
+    padding: 5px;
+}
+
+footer {
+    border: solid #333 1px;
+    margin: auto;
+    padding: 5rem;
+    background: url(https://marketplace.canva.com/EAFVgQ8m8cg/1/0/1600w/canva-%E0%B8%AA%E0%B8%B5%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87-%E0%B8%AA%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99-%E0%B8%AA%E0%B8%B5%E0%B8%8A%E0%B8%A1%E0%B8%9E%E0%B8%B9-%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87-%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A-%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AC-%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5-CqBn578wibg.jpg)center;
+    text-align: center;
+    justify-content: center;
+}
+
+.font-footer {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.expan {
+    color: rgb(8, 2, 14);
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    margin: 0 1rem;}
+.logo{
+        font-size: 3rem;
+        color: rgb(168, 10, 247);
+    }
+.logo-t{
+        font-size: 3rem;
+        color: rgb(13, 13, 241);
+    }
+ nav{
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        li a{
+            color: rgb(231, 227, 231);
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
